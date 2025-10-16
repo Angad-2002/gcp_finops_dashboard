@@ -16,8 +16,35 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files
-.env*
+# Environment and Configuration Files
+.env
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging.local
+
+# Configuration files
+config.json
+config.js
+config.ts
+config.yaml
+config.yml
+config.toml
+next.config.local.js
+next.config.local.mjs
+next.config.local.ts
+
+# API keys and secrets
+secrets.json
+api-keys.json
+.secrets
+.secrets.*
 
 # vercel
 .vercel
